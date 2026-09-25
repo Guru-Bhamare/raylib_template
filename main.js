@@ -12,7 +12,6 @@ function loop() {
 
 function main() {
     sketch.setup();
-    console.log(g.square(10));
     loop();
     sketch.tearDown();
 }
