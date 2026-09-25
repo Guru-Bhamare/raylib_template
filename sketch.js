@@ -16,11 +16,10 @@ function running() {
 
 function draw() {
     r.ClearBackground(r.WHITE)
-    r.BeginDrawing();
     r.EndDrawing();
 }
 
-function update() {}
+function update() { }
 
 function tearDown() {
     return r.CloseWindow();
