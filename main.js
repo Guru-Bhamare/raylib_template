@@ -1,5 +1,4 @@
 const sketch = require('./sketch.js')
-const g = require('./geometry')
 
 function loop() {
 
