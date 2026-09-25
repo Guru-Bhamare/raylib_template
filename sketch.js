@@ -20,9 +20,7 @@ function draw() {
     r.EndDrawing();
 }
 
-function update() {
-
-}
+function update() {}
 
 function tearDown() {
     return r.CloseWindow();
@@ -33,4 +31,4 @@ module.exports = {
     draw,
     update,
     tearDown,
-}
+}           

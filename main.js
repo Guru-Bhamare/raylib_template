@@ -1,4 +1,5 @@
 const sketch = require('./sketch.js')
+const g = require('./geometry')
 
 function loop() {
 
@@ -11,6 +12,7 @@ function loop() {
 
 function main() {
     sketch.setup();
+    console.log(g.square(10));
     loop();
     sketch.tearDown();
 }
